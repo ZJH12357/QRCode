@@ -75,10 +75,5 @@ pyinstaller --onefile --windowed --name qrcode_gui --icon gui_icon.ico gui.py
 安全与隐私
 - 所有二维码在本地生成，不会上传到任何服务器（除非你自己部署了在线版本）。
 
-后续建议
-- 如果面向非技术用户分发，优先打包 GUI 为 exe 并上传到 GitHub Releases，附一页简短使用说明。
-- 需要我代为生成 Release 包、制作安装程序或签名 exe，请告诉我具体需求。
 
-----
-如需我直接把这份文档写入 `README.md`（我可以替换文件），我现在可以为你直接替换。
 
